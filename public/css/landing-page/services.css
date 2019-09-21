@@ -1,0 +1,168 @@
+#services-container{
+    /* border:30px solid aqua; */
+    /* background-color:black; */
+}
+#services{
+    /* padding:80px 15px; */
+    /* border:10px solid aqua; */
+    /* background-color:aqua; */
+}
+#services .title{
+position: relative;
+width:200px;
+height:200px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:0 auto;
+}
+#services .title .circle{
+    /* background-color:#000000; */
+    background-color:rgba(0,102,255,0.8);
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:23px;
+}
+/* #services .title h2{
+    position: relative;
+    font-size:2.0rem;
+    text-transform:capitalize;
+    color:#0000ff;
+    z-index:1;
+    letter-spacing:15px; */
+    /* font-weight:300; */
+    /* margin-bottom:2rem; */
+/* } */
+        #services .title .sectionTitle{ /* <h2> tag */
+            position: relative;
+            font-size:2.2rem;
+            text-transform:capitalize;
+            /* color:#ffff00; */
+            color:#0000ff;
+            z-index:1;
+            letter-spacing:25px;
+            font-weight:600;
+            /* margin-bottom:2rem; */
+        }
+
+
+#services .services-container{    
+    /* border:10px solid blue; */
+    /* background-color:lightcyan; */
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:40px;
+}
+#services .services-container .box{
+    background:#eeeeee;
+    /* background:rgba(255,255,255, 0); */
+    padding:20px 30px;
+    transition:all .4s ease-in-out;
+    cursor: crosshair;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+#services .services-container .box:hover{
+    background-color:#ffffff;
+    /* background: rgba(255,255,255, 1); */
+    -webkit-box-shadow: 0px 41px 74px 24px rgba(0,102,255,0.8);
+-moz-box-shadow: 0px 41px 74px 24px rgba(0,102,255,0.8);
+box-shadow: 0px 41px 74px 24px rgba(0,102,255,0.8);
+
+/* background: rgba(255,255,255, 1);
+  -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+  box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08); */
+}
+
+#services .services-container .box .fas{
+    font-size:2.5rem;
+    margin-bottom:2rem;
+}
+#services .services-container .box .fab{
+    font-size:3.5rem;
+    margin-bottom:1rem;
+}
+
+/* #services .services-container .box h1{
+    font-size:.9rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:2rem;
+} */
+
+
+#services .services-container .box h3{
+    font-size:1rem;
+    /* font-size:1rem; */
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    margin-bottom:.5rem;
+    color:#0000ff;
+}
+
+/* #services .services-container .box h4{
+    font-size:.9rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:1rem;
+    color:#0000ff;
+} */
+
+/* #services .services-container .box h5{
+    font-size:.9rem;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:1rem;
+    color:#0033FF;
+} */
+#services .services-container .box .skills{
+    font-size:.9rem;
+    font-weight:500;
+    letter-spacing:1.0px;
+    color:#0033FF;
+    line-height:1.2;
+    margin-bottom:.3rem;
+}
+
+#services .services-container .box p{
+    font-size:.8rem;
+    /* line-height:1.5; */
+    color:#303030;
+    /* color:orangered; */
+    /* background-color:rgba(255,255,255,1); */
+    /* color:#b3b3b3; */
+}
+
+#services .services-container .box.blue{
+    /* border-bottom:2px solid #00ff00; */
+    border-bottom:1px solid #0000ff;
+
+    /* border-bottom: 2px solid #52b8ff; */
+}
+#services .services-container .box.red{
+    /* border-bottom:2px solid #00ff00; */    
+    border-bottom:1px solid #0000ff;
+
+    /* border-bottom: 2px solid #ff5253; */
+}
+#services .services-container .box.yellow{
+    /* border-bottom:2px solid #00ff00; */
+    border-bottom:1px solid #0000ff;
+
+    /* border-bottom: 2px solid #ffc853; */
+}
+
+
+#services .services-container .box p{
+    font-size:.9rem;
+    line-height:1.5;
+    /* color:#b3b3b3; */
+    color:#303030;
+    /* color:orangered; */
+}

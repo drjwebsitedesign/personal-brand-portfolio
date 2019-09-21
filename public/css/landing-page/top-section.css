@@ -1,0 +1,106 @@
+#top{
+    /* background-color:black; */
+    /* border:10px solid brown; */
+}
+#top .container{
+  align-items:center;
+  /* margin-top:10px; */
+  margin-bottom:70px;
+    /* background-color:tan; */
+    /* border:10px solid brown; */
+    /* display:grid; */
+    /* grid-template-columns:1fr 1fr; */
+    /* padding:80px 0; */
+    /* margin-left:80px; */
+}
+#top .info{
+  position: relative;
+    /* padding:15px; */
+}
+#top .info .blue-square{
+    border:20px solid #0066ff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    top: -70%;
+    left: -50%;
+    /* border: 20px solid hsl(0, 40%, 100%); */
+}
+
+#top .info h1{
+    position: relative;
+    font-weight:500;
+    text-transform:uppercase;
+    font-size:3rem;
+    color:#0000ff;
+    /* margin-bottom:2rem; */
+    z-index:1;
+}
+#top .info p{
+    /* margin-top:-10px; */
+    font-size:5.9rem;
+    line-height:1.2;
+    color:#303030;
+    /* padding:10px 200px 50px 50px; */
+    /* margin-bottom:-50px; */
+    /* color: #000000; */
+    /* font-size:.9rem; */
+    /* position: relative; */
+    /* margin-bottom: 1rem; */
+    /* z-index: 1; */
+}
+/* #top .info a{
+    position: relative;
+    font-size:.9rem;
+    color:#16171b;
+    font-weight:700;
+    text-decoration:none;
+    padding-bottom:5px;
+    border-bottom:2px solid #000;
+    text-transform:uppercase;
+    z-index:1;
+    letter-spacing:2px;
+
+} */
+
+/* background: url('../../img/user-img.jpg'); */
+
+#top .img .background-img{
+        
+        background: url('../../../img');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-width: 500px;
+        height: 800px;
+        margin: 0 auto;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+    #top .container{
+      padding: 0 0 80px;
+    }
+    #top .info .blue-square{
+      /* display: none; */
+    }
+    #top .img .background-img{
+      height: 100vh;
+    }
+  }
+  /* Phones */
+  @media only screen and (max-width: 767px){
+    #top .container{
+      padding: 0 0 80px;
+    }
+    #top .info .blue-square{
+      display: none;
+    }
+    #top .img .background-img{
+      height: 100vh;
+    }
+  }
+  
