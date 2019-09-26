@@ -3,15 +3,16 @@
     /* border:10px solid brown; */
 }
 #top .container{
+  border: 1px solid blue;
   align-items:center;
   /* margin-top:10px; */
-  margin-bottom:70px;
+  /* margin-bottom:70px; */
     /* background-color:tan; */
     /* border:10px solid brown; */
     /* display:grid; */
     /* grid-template-columns:1fr 1fr; */
-    /* padding:80px 0; */
-    /* margin-left:80px; */
+    padding:20px 50px;
+    margin-left:50px;
 }
 #top .info{
   position: relative;
@@ -31,7 +32,7 @@
 #top .info h1{
     position: relative;
     font-weight:500;
-    text-transform:uppercase;
+    text-transform:capitalize;
     font-size:3rem;
     color:#0000ff;
     /* margin-bottom:2rem; */
